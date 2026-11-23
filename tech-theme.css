@@ -11,6 +11,6 @@ header{border-bottom:1px solid #ffffff70}.eyebrow{color:#1264a8;letter-spacing:2
 @media(max-width:700px){.azhi-stage{border-radius:30px}.card{border-radius:22px}}
 body{isolation:isolate}
 /* Quiet decorative circuitry and orbital linework, kept behind all content. */
-body:after{content:'';position:fixed;inset:0;z-index:-1;pointer-events:none;background:url('assets/tech-background.svg') center center / cover no-repeat}
+body:after{content:'';position:fixed;inset:0;z-index:-1;pointer-events:none;background:url('./tech-background.svg') center center / cover no-repeat}
 body:before{background-image:linear-gradient(#ffffff20 1px,transparent 1px),linear-gradient(90deg,#ffffff20 1px,transparent 1px)}
 @media(max-width:700px){body:after{opacity:.55;background-size:auto 100%}}
